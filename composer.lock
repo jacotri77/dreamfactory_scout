@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c161904daf7d9bee4eb763f2cf7d5843",
+    "content-hash": "72a8bc05d7d3b34d171fbc75d510efec",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -2075,16 +2075,16 @@
         },
         {
             "name": "dreamfactory/df-script",
-            "version": "0.8.2",
+            "version": "0.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-script.git",
-                "reference": "266fd34c85b303fd5c7b4491b9e688667686e00b"
+                "reference": "55b337bd1ee87cd7823f3d351ec456cbb57f236d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-script/zipball/266fd34c85b303fd5c7b4491b9e688667686e00b",
-                "reference": "266fd34c85b303fd5c7b4491b9e688667686e00b",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-script/zipball/55b337bd1ee87cd7823f3d351ec456cbb57f236d",
+                "reference": "55b337bd1ee87cd7823f3d351ec456cbb57f236d",
                 "shasum": ""
             },
             "require": {
@@ -2132,7 +2132,7 @@
                 "rest",
                 "v8js"
             ],
-            "time": "2018-02-24T22:55:59+00:00"
+            "time": "2019-05-20T17:00:07+00:00"
         },
         {
             "name": "dreamfactory/df-sqldb",
@@ -4058,7 +4058,7 @@
                 "sdk",
                 "storage"
             ],
-            "abandoned": "microsoft/azure-storage-blob, microsoft/azure-storage-table, microsoft/azure-storage-queue, microsoft/azure-storage-file",
+            "abandoned": "microsoft/azure-storage-blob;microsoft/azure-storage-queue;microsoft/azure-storage-table;microsoft/azure-storage-file",
             "time": "2017-02-23T09:55:42+00:00"
         },
         {
@@ -9249,6 +9249,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2018-08-09T05:50:03+00:00"
         },
         {
