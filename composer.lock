@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72a8bc05d7d3b34d171fbc75d510efec",
+    "content-hash": "528c3975c06f8b6298858eb5465ce53f",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -2075,16 +2075,16 @@
         },
         {
             "name": "dreamfactory/df-script",
-            "version": "0.8.2",
+            "version": "0.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-script.git",
-                "reference": "266fd34c85b303fd5c7b4491b9e688667686e00b"
+                "reference": "14941f5dada6077286a0d992d6aa8c3d9243d5a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-script/zipball/266fd34c85b303fd5c7b4491b9e688667686e00b",
-                "reference": "266fd34c85b303fd5c7b4491b9e688667686e00b",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-script/zipball/14941f5dada6077286a0d992d6aa8c3d9243d5a0",
+                "reference": "14941f5dada6077286a0d992d6aa8c3d9243d5a0",
                 "shasum": ""
             },
             "require": {
@@ -2132,7 +2132,7 @@
                 "rest",
                 "v8js"
             ],
-            "time": "2018-02-24T22:55:59+00:00"
+            "time": "2018-02-24T22:56:09+00:00"
         },
         {
             "name": "dreamfactory/df-sqldb",
