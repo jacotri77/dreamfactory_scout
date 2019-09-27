@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72a8bc05d7d3b34d171fbc75d510efec",
+    "content-hash": "2a09916a451dbc3a1032798466b83464",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -3103,8 +3103,8 @@
             "authors": [
                 {
                     "name": "Gary Jones",
-                    "email": "gary@garyjones.co.uk",
-                    "role": "developer"
+                    "role": "developer",
+                    "email": "gary@garyjones.co.uk"
                 },
                 {
                     "name": "Alexandre Eher",
@@ -3112,8 +3112,8 @@
                 },
                 {
                     "name": "Jacob Kiers",
-                    "email": "jacob@alphacomm.nl",
-                    "role": "developer"
+                    "role": "developer",
+                    "email": "jacob@alphacomm.nl"
                 },
                 {
                     "name": "Andy Smith",
@@ -5300,16 +5300,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "shasum": ""
             },
             "require": {
@@ -5343,7 +5343,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2018-11-20T15:27:04+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -5728,9 +5728,9 @@
             "authors": [
                 {
                     "name": "Evert Pot",
+                    "role": "Developer",
                     "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
+                    "homepage": "http://evertpot.com/"
                 }
             ],
             "description": "sabre/event is a library for lightweight event-based programming",
@@ -6190,16 +6190,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.4.15",
+            "version": "v3.4.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "6b217594552b9323bcdcfc14f8a0ce126e84cd73"
+                "reference": "4510f04e70344d70952566e4262a0b11df39cb10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/6b217594552b9323bcdcfc14f8a0ce126e84cd73",
-                "reference": "6b217594552b9323bcdcfc14f8a0ce126e84cd73",
+                "url": "https://api.github.com/repos/symfony/console/zipball/4510f04e70344d70952566e4262a0b11df39cb10",
+                "reference": "4510f04e70344d70952566e4262a0b11df39cb10",
                 "shasum": ""
             },
             "require": {
@@ -6211,6 +6211,9 @@
                 "symfony/dependency-injection": "<3.4",
                 "symfony/process": "<3.3"
             },
+            "provide": {
+                "psr/log-implementation": "1.0"
+            },
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/config": "~3.3|~4.0",
@@ -6220,7 +6223,7 @@
                 "symfony/process": "~3.3|~4.0"
             },
             "suggest": {
-                "psr/log-implementation": "For using the console logger",
+                "psr/log": "For using the console logger",
                 "symfony/event-dispatcher": "",
                 "symfony/lock": "",
                 "symfony/process": ""
@@ -6255,7 +6258,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T11:19:56+00:00"
+            "time": "2019-08-26T07:52:58+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -6312,16 +6315,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.4.15",
+            "version": "v3.4.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "c4625e75341e4fb309ce0c049cbf7fb84b8897cd"
+                "reference": "0b600300918780001e2821db77bc28b677794486"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/c4625e75341e4fb309ce0c049cbf7fb84b8897cd",
-                "reference": "c4625e75341e4fb309ce0c049cbf7fb84b8897cd",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/0b600300918780001e2821db77bc28b677794486",
+                "reference": "0b600300918780001e2821db77bc28b677794486",
                 "shasum": ""
             },
             "require": {
@@ -6364,7 +6367,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-08-03T10:42:44+00:00"
+            "time": "2019-08-20T13:31:17+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -6677,16 +6680,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.9.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
                 "shasum": ""
             },
             "require": {
@@ -6698,7 +6701,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -6715,12 +6718,12 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                },
-                {
                     "name": "Gert de Pagter",
                     "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -6731,20 +6734,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
                 "shasum": ""
             },
             "require": {
@@ -6756,7 +6759,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -6790,7 +6793,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
@@ -6961,16 +6964,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.4.15",
+            "version": "v3.4.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "4d6b125d5293cbceedc2aa10f2c71617e76262e7"
+                "reference": "d822cb654000a95b7855362c0d5b127f6a6d8baa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/4d6b125d5293cbceedc2aa10f2c71617e76262e7",
-                "reference": "4d6b125d5293cbceedc2aa10f2c71617e76262e7",
+                "url": "https://api.github.com/repos/symfony/process/zipball/d822cb654000a95b7855362c0d5b127f6a6d8baa",
+                "reference": "d822cb654000a95b7855362c0d5b127f6a6d8baa",
                 "shasum": ""
             },
             "require": {
@@ -7006,7 +7009,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-08-03T10:42:44+00:00"
+            "time": "2019-08-26T07:52:58+00:00"
         },
         {
             "name": "symfony/routing",
@@ -7225,16 +7228,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.15",
+            "version": "v3.4.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "c2f4812ead9f847cb69e90917ca7502e6892d6b8"
+                "reference": "3dc414b7db30695bae671a1d86013d03f4ae9834"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/c2f4812ead9f847cb69e90917ca7502e6892d6b8",
-                "reference": "c2f4812ead9f847cb69e90917ca7502e6892d6b8",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/3dc414b7db30695bae671a1d86013d03f4ae9834",
+                "reference": "3dc414b7db30695bae671a1d86013d03f4ae9834",
                 "shasum": ""
             },
             "require": {
@@ -7280,7 +7283,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-08-10T07:34:36+00:00"
+            "time": "2019-08-20T13:31:17+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -8380,36 +8383,31 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v6.3.0",
+            "version": "v9.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "588bff42937c1392838af58b122a568508b55567"
+                "reference": "638e70e6df22ca3ad7c04b53292c3900890eb3ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/588bff42937c1392838af58b122a568508b55567",
-                "reference": "588bff42937c1392838af58b122a568508b55567",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/638e70e6df22ca3ad7c04b53292c3900890eb3ae",
+                "reference": "638e70e6df22ca3ad7c04b53292c3900890eb3ae",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0",
-                "symfony/console": "~2.3|~3.0",
-                "symfony/process": "~2.3|~3.0",
-                "symfony/yaml": "~2.3|~3.0"
+                "php": "^7.1",
+                "symfony/console": "~3.0||~4.0",
+                "symfony/process": "~3.0||~4.0",
+                "symfony/yaml": "~3.0||~4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7 || ^6.0"
+                "phpunit/phpunit": "^6.0"
             },
             "bin": [
                 "bin/homestead"
             ],
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.0-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Laravel\\Homestead\\": "src/"
@@ -8426,7 +8424,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2017-10-09T17:43:46+00:00"
+            "time": "2019-09-27T01:34:08+00:00"
         },
         {
             "name": "mockery/mockery",
