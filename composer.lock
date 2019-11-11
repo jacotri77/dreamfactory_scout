@@ -1602,16 +1602,16 @@
         },
         {
             "name": "dreamfactory/df-filemanager-app",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-filemanager-app.git",
-                "reference": "8f51a758995f6e5e45cc6c47cdff32bff191a8a8"
+                "reference": "a043e98a4ee06d18d597dc0eef26e6b987b2defa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-filemanager-app/zipball/8f51a758995f6e5e45cc6c47cdff32bff191a8a8",
-                "reference": "8f51a758995f6e5e45cc6c47cdff32bff191a8a8",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-filemanager-app/zipball/a043e98a4ee06d18d597dc0eef26e6b987b2defa",
+                "reference": "a043e98a4ee06d18d597dc0eef26e6b987b2defa",
                 "shasum": ""
             },
             "require": {
@@ -1643,7 +1643,7 @@
                 "file manager",
                 "rest"
             ],
-            "time": "2017-11-07T19:29:49+00:00"
+            "time": "2019-10-04T12:37:25+00:00"
         },
         {
             "name": "dreamfactory/df-firebird",
